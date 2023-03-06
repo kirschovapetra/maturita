@@ -9,7 +9,7 @@ velkost = int(input("Velkost tabulky: "))
 if velkost > 20:
     print("velkost moze byt max 20")
 elif velkost < 0:
-    print("velkost nemoze byt zaporne")
+    print("velkost nemoze byt zaporna")
 else:
     for riadok in range(velkost):
         for stlpec in range(velkost):
