@@ -6,9 +6,9 @@ slovo = input("Zadajte slovo: ")
 
 je_symetricke = True
 # staci prechadzat do polovice slova, lebo porovnavam naraz odpredu aj odzadu
-for index_pred in range(len(slovo) // 2):
-    index_zad = -1 - index_pred
-    if slovo[index_pred] != slovo[index_zad]:
+for index_odpredu in range(len(slovo) // 2):
+    index_odzadu = -1 - index_odpredu
+    if slovo[index_odpredu] != slovo[index_odzadu]:
         je_symetricke = False
         break
 

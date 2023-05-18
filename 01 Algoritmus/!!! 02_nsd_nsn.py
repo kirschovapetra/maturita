@@ -8,9 +8,11 @@ b_vstup = int(input("Cislo b: "))
 
 ''' NSD '''
 nsd = a_vstup
-b = b_vstup
-while b != 0:
-    nsd, b = b, nsd % b
+pomocne_cislo = b_vstup
+while pomocne_cislo != 0:
+    nsd = pomocne_cislo
+    zvysok = nsd % pomocne_cislo
+    b = zvysok
 print("NSD: " + str(nsd))
 
 ''' NSN '''
@@ -18,6 +20,8 @@ a = a_vstup
 b = b_vstup
 nsn = a * b
 while b != 0:
-    a, b = b, a % b
+    a = b
+    b = a % b
+
 nsn = nsn // a
 print("NSN: " + str(nsn))

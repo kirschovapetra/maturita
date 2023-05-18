@@ -1,0 +1,5 @@
+janko 20
+ferko 30
+anicka 24
+petka 12
+katka 100

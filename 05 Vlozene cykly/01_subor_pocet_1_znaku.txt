@@ -1,0 +1,4 @@
+maticna doska prvok
+pocitc komponent
+disk obsahuje hodinovy obvod
+s realnym casom

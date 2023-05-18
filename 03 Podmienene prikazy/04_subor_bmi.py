@@ -13,7 +13,7 @@ subor = open("04_subor_bmi.txt", "r")
 riadky = subor.readlines()
 
 for riadok in riadky:
-    riadok_bez_enteru = riadok[:-1]  # alebo riadok.rstrip()
+    riadok_bez_enteru = riadok.rstrip() # alebo riadok[:-1]
     riadok_pole = riadok_bez_enteru.split(" ") # rozdeli sa na medzeri na pole s 2 cislami
     hmotnost = float(riadok_pole[0])
     vyska = float(riadok_pole[1])
